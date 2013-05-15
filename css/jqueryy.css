@@ -1,0 +1,42 @@
+/* 
+    Document   : jqueryy
+    Created on : 10/05/2013, 19:34:23
+    Author     : vinicius
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+*{margin: 0; padding: 0;}
+
+
+.lightbox {
+    display:none;    
+    width: 800px;
+    padding:25px;
+    background: #ffffff;	
+    box-shadow: 0 0 25px #111111;
+    -moz-box-shadow: 0 0 25px #111111;
+    -webkit-box-shadow: 0 0 25px #111111;		
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;    
+    z-index:99;	
+}
+
+.overlay {
+    display:none;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1;
+    background:#000;
+    height: 100%;
+    opacity: 0.8;
+}
+
+a.close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
