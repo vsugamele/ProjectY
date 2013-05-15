@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-var loadingImage = 'C:\Users\vinicius\Documents\NetBeansProjects\projetos\Sites\Lightbox\images\loading.gif';
+
 	jQuery(document).ready(function () {
 
 		//Set the lightbox position in the center of screen
